@@ -1,0 +1,4 @@
+# codeowners format: path    github-username
+/src/pipeline/ @sanskarmodi8
+/datasets/ @AryanDhanuka10
+/src/evaluation/ @Priyanshu1303d
