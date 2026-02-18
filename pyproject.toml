@@ -1,6 +1,41 @@
+[project]
+name = "whitebox-hallucinations"
+version = "0.1.0"
+description = "White-box study of hallucinations in large language models"
+authors = [{name="WhiteBoxResearchLab"}]
+readme = "README.md"
+requires-python = ">=3.9"
+
+dependencies = [
+    "transformers>=4.38",
+    "torch",
+    "datasets",
+    "sentence-transformers",
+    "faiss-cpu",
+    "tqdm",
+    "numpy",
+    "pyyaml"
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "ruff",
+    "black",
+    "isort",
+    "pre-commit"
+]
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
 [tool.black]
 line-length = 88
 target-version = ["py39"]
 
 [tool.isort]
 profile = "black"
+
+[tool.setuptools.packages.find]
+where = ["src"]

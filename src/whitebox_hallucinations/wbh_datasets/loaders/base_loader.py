@@ -1,5 +1,6 @@
 import json
 
+
 def load_jsonl(path):
     data = []
     with open(path, "r") as f:
