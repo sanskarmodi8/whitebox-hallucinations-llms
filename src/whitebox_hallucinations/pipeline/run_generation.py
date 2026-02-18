@@ -2,10 +2,11 @@ import json
 import os
 from datetime import datetime
 
-from whitebox_hallucinations.generation.decoding import generate_answer
-from whitebox_hallucinations.wbh_datasets.loaders.base_loader import load_jsonl
+from wbh_datasets.loaders.base_loader import load_jsonl
 
-DATA_PATH = "src/whitebox_hallucinations/wbh_datasets/processed/sample_qa.jsonl"
+from src.generation.decoding import generate_answer
+
+DATA_PATH = "datasets/processed/sample_qa.jsonl"
 
 
 def run():

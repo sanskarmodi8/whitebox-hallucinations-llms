@@ -1,4 +1,21 @@
-# codeowners format: path    github-username
-/src/pipeline/ @sanskarmodi8
-/datasets/ @AryanDhanuka10
-/src/evaluation/ @Priyanshu1303d
+repos:
+  - repo: https://github.com/psf/black
+    rev: 24.8.0
+    hooks:
+      - id: black
+
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.4.10
+    hooks:
+      - id: ruff
+
+  - repo: https://github.com/pre-commit/mirrors-isort
+    rev: v5.13.2
+    hooks:
+      - id: isort
+
+  - repo: https://github.com/conventional-changelog/commitlint
+    rev: v17.8.1
+    hooks:
+      - id: commitlint
+        args: ['--config', '.commitlintrc.yml']
