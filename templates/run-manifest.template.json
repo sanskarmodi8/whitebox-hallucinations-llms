@@ -1,0 +1,18 @@
+{
+  "run_name": "<model_dataset_intervention_YYYY-MM-DD_HH-MM>",
+  "git_commit": "<commit-hash>",
+  "config": "<path-to-config_used.yaml>",
+  "seed": 42,
+  "package_versions": {
+    "python": "3.x",
+    "transformers": "x.y.z",
+    "sentence-transformers": "x.y.z"
+  },
+  "hardware": {
+    "gpu": "<gpu-info-or-none>",
+    "cpu": "<cpu-info>"
+  },
+  "artifact_links": {
+    "external_results": "<drive/s3 link if any>"
+  }
+}
