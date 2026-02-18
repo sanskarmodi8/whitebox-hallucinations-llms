@@ -43,5 +43,9 @@ def run():
     print("Saved:", out_path)
 
 
-if __name__ == "__main__":
+def main():
     run()
+
+
+if __name__ == "__main__":
+    main()
