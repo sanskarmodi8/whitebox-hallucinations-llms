@@ -1,5 +1,5 @@
 model_name: "google/flan-t5-large"
-dataset_path: "datasets/processed/sample_qa.jsonl"
+dataset_path: "src/whitebox_hallucinations/wbh_datasets/processed/sample_qa.jsonl"
 run_name_prefix: "decoding_sample"
 decoding_settings:
   - temperature: 0.0
