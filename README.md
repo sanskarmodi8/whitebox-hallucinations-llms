@@ -31,7 +31,7 @@ The objective is to identify which interventions improve factual reliability and
 
 ## Current Status
 
-🚧 **Project initialization phase**
+**Project initialization phase**
 
 Current work:
 - Designing the evaluation pipeline
