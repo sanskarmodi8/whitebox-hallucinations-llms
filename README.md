@@ -100,4 +100,4 @@ All experiments will be reproducible via configuration files.
 
 ## License
 
-MIT License
+[MIT License](LICENSE)
